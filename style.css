@@ -1,0 +1,53 @@
+fieldset{
+    width: 60vw; 
+    border: 10px dashed orangered;
+    text-align: center;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  background-color: #082032;
+background-size: cover;
+height: 100vh;
+font-family: 'Roboto', sans-serif;
+}
+button{
+    width: 100px;
+    height: 30px;
+margin-top: 30px;
+-webkit-box-shadow: 5px 5px 0px 0px #082032, 10px 10px 0px 0px #2C394B, 15px 15px 0px 0px #334756, 20px 20px 0px 0px #FF4C29, 25px 25px 0px 0px #082032, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 0px 0px #082032, 10px 10px 0px 0px #2C394B, 15px 15px 0px 0px #334756, 20px 20px 0px 0px #FF4C29, 25px 25px 0px 0px #082032, 5px 5px 15px 5px rgba(0,0,0,0);
+transition-duration: 1s;
+background-color: #2C394B;
+border: none;
+border-radius: 3px;
+margin: 40px;
+color: #FF4C29;
+}
+button:hover{
+    box-shadow: none;
+    background-color: gainsboro;
+    #FF4C29;
+}
+div{
+    text-align: center;
+    height: 180px;
+}
+legend{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+input{
+    width: 60vw;
+   height: 100px;
+   border: none;
+   border-radius: 5px;
+   background-color: #334756;
+}
+input::placeholder{
+    color: #FF4C29;
+    font-size: 20px;
+}
